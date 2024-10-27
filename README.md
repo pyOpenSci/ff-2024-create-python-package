@@ -1,6 +1,6 @@
 # 2024 pyOpenSci Fall Festival: Create Your First Python Package
 
-This repo is setup for the pyOpenSci Fall Festival Create a Python Package workshop.
+This repo is set up for the pyOpenSci 2024 Open Science Festival. Create a Python Package & share your code workshops.
 
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pyOpenSci/ff-2024-create-python-package)
 
