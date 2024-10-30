@@ -60,3 +60,17 @@ only-packages = true
 
 [tool.hatch.build.targets.wheel]
 packages = ["src/supernormal"]
+
+# Create Hatch environment
+[tool.hatch.envs.test]
+description = """Environment that runs the test suite"""
+extra-dependencies = [
+    "pytest",
+    "pytest-cov",
+]
+
+[[tool.hatch.envs.test.matrix]]
+python = ["3.10", "3.11"]
+
+[tool.hatch.envs.test.scripts]
+run_test = "pytest TESTS {args:--cov=supernormal --cov-report=term-missing}"
