@@ -1,5 +1,7 @@
 """A module that processes numbers"""
-def crunch(x,y):
+
+
+def crunch(x, y):
     """A function to do fancy math
 
     Parameters
@@ -10,5 +12,5 @@ def crunch(x,y):
             add second
     Returns
         summation
-    """
-    return x + y
+
+    return x+y
