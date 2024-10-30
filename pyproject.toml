@@ -1,0 +1,62 @@
+################################################################################
+# Build Configuration
+################################################################################
+
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+################################################################################
+# Project Configuration
+################################################################################
+
+[project]
+name = "mypackage"
+
+version = "0.1.0"
+
+description = "A package that adds numbers together."
+authors = [
+    { name = "pyOpenSci", email = "pyopensci@pyopensci.org" },
+]
+license = "MIT"
+readme = {"file" = "README.md", "content-type" = "text/markdown"}
+requires-python = ">=3.10"
+# Please consult https://pypi.org/classifiers/ for a full list.
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering",
+]
+# TODO: add keywords
+keywords = []
+# TODO: add dependencies
+dependencies = []
+
+[project.urls]
+Documentation = "https://mypackage.readthedocs.io"
+Download = "https://pypi.org/project/mypackage/#files"
+
+[project.optional-dependencies]
+dev = [
+    "hatch",
+    "pre-commit",
+]
+
+################################################################################
+# Tool Configuration
+################################################################################
+
+[tool.hatch.build]
+only-packages = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mypackage"]
