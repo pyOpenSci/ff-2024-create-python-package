@@ -1,17 +1,15 @@
-# 2024 pyOpenSci Fall Festival: Create Your First Python Package
+# superNormal
 
-This repo is set up for the pyOpenSci 2024 Open Science Festival. Create a Python Package & share your code workshops.
+| |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|---|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Package | [![Latest PyPI Version](https://img.shields.io/pypi/v/supernormal.svg)](https://pypi.org/project/supernormal/) [![Supported Python Versions](https://img.shields.io/pypi/pyversions/supernormal.svg)](https://pypi.org/project/supernormal/) [![Documentation](https://readthedocs.org/projects/supernormal/badge/?version=latest)](https://supernormal.readthedocs.io/en/latest/?badge=latest)                                                                                                                                                                              |
+| Meta | [![MIT](https://img.shields.io/pypi/l/supernormal.svg)](LICENSE) [![Code of Conduct](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](.github/CODE_OF_CONDUCT.md) [![Checked with mypy](https://www.mypy-lang.org/static/mypy_badge.svg)](https://mypy-lang.org/) [![Code Style Black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black) [![Linting: Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/charliermarsh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff) |
+| Automation |                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/pyOpenSci/ff-2024-create-python-package)
+_a package that crunches numbers_
 
-## Create a new package using copier
+## Copyright
 
-`copier copy gh:pyopensci/pyos-package-template .`
+- Copyright © 2024 pyOpenSci.
+- Free software distributed under the [MIT License](./LICENSE).
 
-## Create a new codespace
-
-1. Click on badge above **Open in GitHub Codespaces**.
-
-2. Select **Create new codespace**.
-
-   <img width="566" alt="create-codespace" src="https://github.com/user-attachments/assets/57e212d1-2d76-49cb-bfb7-26ed5e4c1729">
