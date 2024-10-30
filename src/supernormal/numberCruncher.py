@@ -12,5 +12,5 @@ def crunch(x, y):
             add second
     Returns
         summation
-
-    return x+y
+    """
+    return x + y, x * y, x**y
