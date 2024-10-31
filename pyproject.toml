@@ -13,7 +13,7 @@ requires = ["hatchling"]
 [project]
 name = "supernormal"
 
-version = "0.1.1"
+version = "0.1.2"
 
 description = "a package that crunches numbers"
 authors = [
@@ -21,7 +21,7 @@ authors = [
 ]
 license = "MIT"
 readme = {"file" = "README.md", "content-type" = "text/markdown"}
-requires-python = ">=3.10"
+
 # Please consult https://pypi.org/classifiers/ for a full list.
 classifiers = [
     "Development Status :: 2 - Pre-Alpha",
