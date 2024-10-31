@@ -70,7 +70,7 @@ extra-dependencies = [
 ]
 
 [[tool.hatch.envs.test.matrix]]
-python = ["3.9","3.10", "3.11"]
+python = ["5.4.0","3.9","3.10", "3.11"]
 
 [tool.hatch.envs.test.scripts]
 run_test = "pytest TESTS {args:--cov=supernormal --cov-report=term-missing}"
