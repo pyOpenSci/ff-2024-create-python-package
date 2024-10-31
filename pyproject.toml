@@ -67,7 +67,6 @@ description = """Environment that runs the test suite"""
 extra-dependencies = [
     "pytest",
     "pytest-cov",
-    "spyder==5.4.0"
 ]
 
 [[tool.hatch.envs.test.matrix]]
